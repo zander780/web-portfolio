@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* Zander
+Lab 6
+Feb 25, 2026 */
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    width: 150px;
+    margin: auto;
+    border: 5px dotted blue;
+}
+
+#one {
+    padding: 50px;
+    background-color: lavender;
+}
+
+#two {
+    width: 160px;
+    margin: 30px;
+    border: 5px dotted blue;
+    font-size: larger;
+    /* changed font size to make text fit on one line in the width */
+}
+
+#three {
+    border: 5px dashed darkred;
+    text-align: right;
+    margin-right: 200px;
+    margin-bottom: 0px;
+}
+
+#four {
+    border: 5px solid black;
+    width: 600px;
+    margin: auto;
+}
+
+p>img {
+    width: 590px;
+    /* instruction was 600px width for image but because of borders (maybe?) I had to use 590px width to have the border of #four show */
+}

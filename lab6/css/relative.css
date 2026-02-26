@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/* Zander
+Lab 6
+Feb 25, 2026 */
+* {
+    box-sizing: border-box;
+}
+
+#one {
+    background-color: lavender;
+    width: 60%;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#two {
+    width: 25%;
+    padding: 30px 30px 0 0;
+    border: 5px solid black;
+    margin-top: 0;
+}
+
+#three {
+    border: 5px solid blue;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 0;
+}
+
+#four {
+    border: 5px solid black;
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+#five {
+    width: 80%;
+    margin: auto;
+    border: 5px solid black;
+}
+
+img {
+    width: 100%;
+}
+
+span {
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+}

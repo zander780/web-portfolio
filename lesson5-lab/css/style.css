@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(212, 239, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    width: 400px;
+}
+
+/* NAV */
+nav {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+}
+
+nav a {
+    border: 5px solid lightpink;
+    padding: 10px 10px;
+    background-color: darkblue;
+    color: lightpink;
+}
+
+a {
+    color: darkblue;
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: underline;
+    font-size: 3rem;
+    border: 5px solid darkblue;
+    background-color: lightpink;
+}
+
+/* classes */
+.welcome {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome>p {
+    margin-left: 500px;
+}
+
+.welcome img {
+    width: 400px;
+    padding-right: 400px;
+}
+
+
+.boats,
+.snorkel {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+.boats img {
+    border: 5px solid darkblue;
+    padding: 5px;
+}
+
+.boats img:hover {
+    border: 10px solid lightpink;
+    padding: 10px;
+}
+
+.snorkel img {
+    border: 5px solid darkblue;
+    padding: 5px;
+}
+
+.snorkel img:hover {
+    border: 10px solid lightpink;
+    padding: 10px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 500px;
+    padding-right: 500px;
+    justify-content: center;
+    align-content: center;
+
+}
+
+/* headings */
+h1 {
+    font-variant: small-caps;
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+h1,
+h2 {
+    color: darkblue;
+    background-color: pink;
+    background-position: center;
+    border: 10px solid darkblue;
+    padding: 20px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/* other stuff */
+p {
+    border: 7px solid pink;
+    color: darkblue;
+    font-weight: bolder;
+    padding: 15px;
+    text-align: center;
+    font-size: larger;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+ul {
+    align-items: center;
+    font-size: larger;
+}
+
+/* footer */
+footer>section {
+    color: pink;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: darkblue;
+    gap: 20%;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+}
+
+footer>p {
+    border: none;
+    text-align: center;
+}
+
+address {
+    color: pink;
+    border: none;
+    font-style: italic;
+    font-size: larger;
+}
